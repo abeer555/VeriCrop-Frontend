@@ -72,14 +72,6 @@ The global agricultural supply chain loses **$40+ billion annually** to food fra
 
 ![Retailer Dashboard](./ReadmeImages/retailer.png)
 
-### 👨‍💼 **Inspector**
-- Verify supply chain compliance
-- Conduct quality audits
-- Issue certifications
-- Monitor fraud reports
-
-![Inspector Dashboard](./ReadmeImages/inspector.png)
-
 ### 🛒 **Consumer**
 - Scan QR codes on products
 - View full supply chain history
@@ -104,7 +96,7 @@ The global agricultural supply chain loses **$40+ billion annually** to food fra
 ## 📋 Getting Started
 
 ### Prerequisites
-- Node.js 18+ and pnpm
+- Node.js 18+ and npm
 - Web3 wallet (MetaMask recommended)
 - Access to blockchain testnet
 
@@ -112,8 +104,8 @@ The global agricultural supply chain loses **$40+ billion annually** to food fra
 
 ```bash
 cd frontend/webapp
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 Visit `http://localhost:3000` and connect your wallet.
@@ -190,8 +182,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 For questions, issues, or partnerships:
 - 📧 Email: info@vericrop.io
-- 🔗 Website: www.vericrop.io
-- 💬 Discord: [VeriCrop Community](https://discord.gg/vericrop)
 
 ---
 
